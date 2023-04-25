@@ -10,10 +10,12 @@
 
 void insertion_sort_list(listint_t **list)
 {
-	int i, key, j, size;
-	
-	for (i = 1; i < size; i++)
+	if (list == NULL || list->next == NULL)
+		return list;
+	head = NULL;
+	while (list != NULL)
 	{
-		key = list[i]
-	
+		current = list;
+		list = list->next;
+		if  (head == NULL || current
 }
